@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#8bb140"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/popupText" />
+
+    <Button
+        android:id="@+id/add_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/remove_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Remove"/>
+
+    <Button
+        android:id="@+id/close_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"/>
+
+
+
+
+</LinearLayout>
